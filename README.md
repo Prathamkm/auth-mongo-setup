@@ -50,8 +50,6 @@ const authMongoSetup = require('auth-mongo-setup');
 
 const app = express();
 
-// Use the authentication routes
-app.use('/api/auth', authMongoSetup.routes);
 
 // Start your engines!
 const PORT = process.env.PORT || 3000;
