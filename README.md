@@ -44,7 +44,7 @@ FROM_EMAIL=noreply@yourapp.com
 #### First, sprinkle some magic dust in your main file:
 
 ```bash
-javascriptCopyrequire('dotenv').config();
+require('dotenv').config();
 const express = require('express');
 const authMongoSetup = require('auth-mongo-setup');
 
