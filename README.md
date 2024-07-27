@@ -28,11 +28,15 @@ npm install auth-mongo-setup
 ### Create a .env file in your project root. Fill it with your arcane secrets:
 
 ```bash
-CopyMONGO_URI=mongodb://localhost:27017/hogwarts-db
-JWT_SECRET=mischief-managed
-SMTP_HOST=owl.postoffice.com
-SMTP_USER=hedwig@owlmail.com
-SMTP_PASS=treat$ForOwls
+MONGO_URI=mongodb://localhost:27017/myapp
+JWT_SECRET=your_secret_key
+CLIENT_URL=http://localhost:3000
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_USER=your_email@example.com
+SMTP_PASS=your_email_password
+FROM_NAME=Your App Name
+FROM_EMAIL=noreply@yourapp.com
 ```
 
 ## Usage (No stack overflow required!) 🤓
